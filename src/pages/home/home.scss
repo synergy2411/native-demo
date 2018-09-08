@@ -1,5 +1,53 @@
-page-home {
-agm-map{
-    height: 250px;
-}
-}
+// page-home {
+//     // @import './btn';
+    
+//     // $theme : 'dark';
+//     agm-map{
+//         height: 250px;
+//     }
+
+//     @mixin linaer-gradient($side, $color1, $color2) {
+//         background-image: -ms-linear-gradient($side, $color1, $color2);
+//         background-image: -webkit-linear-gradient($side, $color1, $color2);
+//         background-image: -moz-linear-gradient($side, $color1, $color2);
+//         background-image: -o-linear-gradient($side, $color1, $color2);
+//         background-image: linear-gradient($side, $color1, $color2); 
+//     }
+//     div.author{
+//        @include linaer-gradient(red, bottom, left);
+//     }
+//     div.person{
+//         @include linaer-gradient(black, bottom, left);
+//      }
+    
+//      .myFont{
+//          font-size : 14pt;
+//      }
+//      .success{
+//          color : green;
+//          @extend .myFont;
+//          width: fludize(1200, 300 );
+//      }
+
+//      @function fludize($target, $context){
+//          @return $context/$target * 100%;
+//      }
+
+//      div#container1{
+         
+//         @if $theme == 'dark'{
+//             color : darken(grey, 30%);
+//         }@else {
+//             color : ligten(grey, 30%);
+//         }
+//      }
+
+// }
+
+// // import other scss
+// // mixins
+// // extends
+// // use of variables
+// // functions
+// // built-in functions
+// // directives

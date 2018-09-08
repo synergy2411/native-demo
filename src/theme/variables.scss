@@ -23,7 +23,7 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 
-
+$baseColor : #643465;
 
 // Named Color Variables
 // --------------------------------------------------
@@ -38,9 +38,13 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  myColor :   #2424a7
 );
 
+h1{
+  color : $baseColor;
+}
 
 // App iOS Variables
 // --------------------------------------------------
