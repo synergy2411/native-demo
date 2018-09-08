@@ -7,8 +7,23 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<button ion-button (click)=" getMyLocation()">
+  Get My Location
+</button>
+<hr>
+<button ion-button (click)="openCamera()">Open Camera</button>
+<hr>
+<button ion-button (click)="addGeofence()">Geofence added</button>
+<hr>
+
+<agm-map *ngIf="locationIsSet" 
+    [latitude]="lat"
+    [longitude]="lng" 
+    >
+
+    <agm-marker  
+    [latitude]="lat"
+    [longitude]="lng" ></agm-marker>
+</agm-map>
+
 </ion-content>
